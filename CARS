@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asterisk | Affordable Futuristic Cars</title>
+    <style>
+        /* Futuristic & Sleek Styling */
+        :root {
+            --primary: #00f7ff;
+            --secondary: #6e00ff;
+            --dark: #0a0a1a;
+            --light: #f0f0ff;
+            --accent: #ff00aa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark);
+            color: var(--light);
+            overflow-x: hidden;
+        }
+        
+        /* Glowing Neon Header */
+        header {
+            padding: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, var(--secondary), var(--primary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            border-bottom: 2px solid var(--primary);
+            box-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px var(--primary);
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1.5rem;
+            background: rgba(10, 10, 26, 0.8);
+            backdrop-filter: blur(10px);
+        }
+        
+        nav a {
+            color: var(--light);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        nav a:hover {
+            background: var(--primary);
+            color: var(--dark);
+            box-shadow: 0 0 15px var(--primary);
+        }
+        
+        /* Main Content */
+        .intro {
+            text-align: center;
+            padding: 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .intro h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        /* Futuristic Image Gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+        
+        .car-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid rgba(0, 247, 255, 0.2);
+        }
+        
+        .car-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 247, 255, 0.3);
+            border: 1px solid var(--primary);
+        }
+        
+        .car-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .car-info {
+            padding: 1.5rem;
+        }
+        
+        .car-info h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .car-info p {
+            opacity: 0.8;
+            margin-bottom: 1rem;
+        }
+        
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.5);
+            margin-top: 3rem;
+        }
+        
+        footer p {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <!-- Futuristic Header -->
+    <header>
+        <h1>ASTERISK</h1>
+        <p class="tagline">Affordable Cars for a Futuristic World</p>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Models</a>
+        <a href="#">Pricing</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    
+    <!-- Intro Section -->
+    <section class="intro">
+        <h2>Drive the Future, Today</h2>
+        <p>Discover the most affordable, cutting-edge cars designed for the modern era. Sleek, efficient, and packed with futuristic tech—without breaking the bank.</p>
+    </section>
+    
+    <!-- Futuristic Car Gallery -->
+    <section class="gallery">
+        <!-- Car 1 -->
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Futuristic Electric Car">
+            <div class="car-info">
+                <h3>NOVA-X</h3>
+                <p>All-electric, self-driving, and ultra-efficient. The future of urban mobility.</p>
+                <p class="price">$24,999</p>
+            </div>
+        </div>
+        
+        <!-- Car 2 -->
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Sleek Sports Car">
+            <div class="car-info">
+                <h3>PHANTOM S1</h3>
+                <p>Hybrid performance with AI-assisted driving. Speed meets sustainability.</p>
+                <p class="price">$29,999</p>
+            </div>
+        </div>
+        
+        <!-- Car 3 -->
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1494972308805-463bc619d34e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" alt="Compact Futuristic Car">
+            <div class="car-info">
+                <h3>ZEN-ECO</h3>
+                <p>Compact, affordable, and loaded with smart tech. Perfect for city life.</p>
+                <p class="price">$18,999</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 ASTERISK | The Future of Affordable Cars</p>
+    </footer>
+</body>
+</html>
